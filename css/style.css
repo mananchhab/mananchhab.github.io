@@ -1,0 +1,70 @@
+img {
+  border-radius: 50%;
+}
+.Aboutme{
+   margin-top: 70px;
+   margin-left: 150px;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 30px;
+ }
+.Intro{
+    align-content: center;
+  padding-top: 180px;
+  padding-right: 100px;
+  padding-left: 80px;
+  font-size: 40px;
+}
+.page1{
+  display: flex;
+  background-color: white;
+}
+.page2{
+  display: flex;
+}
+h1 {
+  font-size: 60px;
+  color: #022e57;
+  margin: auto;
+   font-family: cursive;
+
+
+}
+h2{
+  margin: auto;
+
+  font-family: cursive;
+}
+hr{
+  height: 2px;
+  width:100px;
+  color:#ff96ad;
+  border-radius: 20px;
+  border-style: dotted;
+  background-color:#ff96ad;
+}
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #f0ebec;
+  font-size: 36px;
+  background: #ff96ad;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.navbar-nav{
+  margin: auto;
+  font-size: 20px;
+  padding-right: 70px;
+
+}
+h3{
+  margin: auto;
+}
+.box1{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
