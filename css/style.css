@@ -2,18 +2,20 @@ img {
   border-radius: 50%;
 }
 .Aboutme{
+
    margin-top: 70px;
    margin-left: 150px;
   padding-left: 30px;
   padding-top: 5px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
  }
 .Intro{
     align-content: center;
-  padding-top: 180px;
+  padding-top: 100px;
   padding-right: 100px;
   padding-left: 80px;
   font-size: 40px;
+  margin-bottom: 50px;
 }
 .page1{
   display: flex;
@@ -36,24 +38,36 @@ h2{
   font-family: cursive;
 }
 hr{
-  height: 2px;
-  width:100px;
-  color:#ff96ad;
-  border-radius: 20px;
-  border-style: dotted;
-  background-color:#ff96ad;
-}
-/* .btn {
+      height: 12px;
+      border: 0;
+      box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+  }
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
   font-family: Georgia;
-  color: #f0ebec;
-  font-size: 36px;
-  background: #ff96ad;
-  padding: 10px 20px 10px 20px;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 14px 22px 14px 22px;
   text-decoration: none;
-} */
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #2d73a1);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #2d73a1);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #2d73a1);
+  background-image: -o-linear-gradient(top, #3cb0fd, #2d73a1);
+  background-image: linear-gradient(to bottom, #3cb0fd, #2d73a1);
+  text-decoration: none;
+}
 .navbar-nav{
   margin: auto;
   font-size: 20px;
@@ -61,7 +75,14 @@ hr{
 
 }
 h3{
-  margin: auto;
+  display: flex;
+  font-size: 60px;
+   font-family: 'Castoro', serif;
+   padding-left: 700px;
+   padding-top: 70px;
+   padding-bottom: 70px;
+     background-color: #F9F9F9;
+
 }
 .box1{
   display: flex;
@@ -75,8 +96,6 @@ h3{
 html {
 	scroll-behavior: smooth;
 }
-
-
 section #services {
   text-align: center;
   transform: translatez(0);
@@ -132,4 +151,43 @@ section #services li span {
   background: white;
   padding: 20px;
   max-width: 300px;
+}
+.SKILLBOXES{
+  margin: auto;
+  margin-left: 200px;
+  margin-bottom: 100px;
+  }
+.card-header{
+  margin: auto;
+}
+.card-title{
+  text-align: center;
+  font-style: italic;
+}
+.card-text{
+  font-style: italic;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body{
+    background-color: #F9F9F9;
+}
+.page3{
+    background-color:#F4F9F9;
+}
+.controls{
+  margin: auto;
+}
+h4{
+  font-size:60px;
+  font-family: 'Castoro', serif;
+  padding-left: 610px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.submit{
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
