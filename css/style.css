@@ -2,19 +2,16 @@ img {
   border-radius: 50%;
 }
 .Aboutme{
+  padding-left: 30px;
 
    margin-top: 70px;
-   margin-left: 150px;
-  padding-left: 30px;
   padding-top: 5px;
   padding-bottom: 50px;
  }
 .Intro{
-    align-content: center;
+  align-content: center;
   padding-top: 100px;
-  padding-right: 100px;
-  padding-left: 80px;
-  font-size: 40px;
+    font-size: 40px;
   margin-bottom: 50px;
 }
 .page1{
@@ -76,9 +73,10 @@ hr{
 }
 h3{
   display: flex;
+
   font-size: 60px;
    font-family: 'Castoro', serif;
-   padding-left: 700px;
+
    padding-top: 70px;
    padding-bottom: 70px;
      background-color: #F9F9F9;
@@ -153,8 +151,6 @@ section #services li span {
   max-width: 300px;
 }
 .SKILLBOXES{
-  margin: auto;
-  margin-left: 200px;
   margin-bottom: 100px;
   }
 .card-header{
@@ -182,7 +178,6 @@ body{
 h4{
   font-size:60px;
   font-family: 'Castoro', serif;
-  padding-left: 610px;
   padding-top: 70px;
   padding-bottom: 70px;
 }
